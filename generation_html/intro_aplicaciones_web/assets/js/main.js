@@ -1,1 +1,1 @@
-alert("Mi primer página completa");
+//alert("Mi primer página completa");
