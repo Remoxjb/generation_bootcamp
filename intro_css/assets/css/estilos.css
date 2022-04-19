@@ -1,0 +1,81 @@
+/* elemeto HTML*/
+/* selector universal aplica un estilo a todos los elemntos a un archivo*/
+/*
+
+*{
+
+    background-color: blue; /*se aplique a todo el documento 
+}
+/* selector de estiqueta 
+/* h1 {
+}
+
+*/
+
+/* selector de clase inicia con un punto */
+
+body{
+    background-color: rgb(0, 242, 255);
+}
+
+.cuadro{  /* se aplica a varios cuando pones el selector de clase */
+
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse; 
+    border: 1px solid red;
+    border-radius: 10px; /* se crea un circulo */
+} 
+
+/* id solo se puede usar uno solo ya que no se puden utilizar mas elementos  inicia con #*/
+
+#forma{
+    width: 100px;
+    height: 100px;
+    background-color:rgba(0, 0, 255, 1);
+}
+
+
+/* !important tiene la mayor jerarquia */
+
+
+.color{ 
+    background-color:aquamarine; 
+}
+
+.color{
+    background-color:blue;
+}
+
+.color{
+    background-color: blueviolet;
+}
+
+/*porque se aplica la ultima de las modificaciones ya que es en cascada va de arriba a abajo y tienen la misma jerarquia */
+
+.color-texto{
+    color: rgb(221, 255, 255);
+    background-color:crimson;
+}
+
+.forma{
+    height: 100px;
+    width: 300px;
+}
+
+.borde{
+   /*  border: 3px solid black;  es para toda la cajita y la de abajo es para cada lado*/
+   border-top: 3px solid green;
+   border-right: 3px dashed red;
+   border-bottom: 3px solid black;
+   border-left: 3px solid blue;
+
+    text-align: center;
+    line-height: 100px;
+}
+
+p{
+    font-family: cursive;
+    font-size:20px;
+    font-weight: 100px;
+}

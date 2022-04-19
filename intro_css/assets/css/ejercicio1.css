@@ -1,0 +1,32 @@
+
+h1{
+   font-family:'Courier New', Courier, monospace; 
+    font-size: 50px;
+    font-weight: 50px;
+    text-align: center;
+}
+
+.rosa{
+    background-color: rgb(238, 130, 238);
+}
+div{
+    font-family:cursive;
+    font-size: 40px;
+    font: weight 35px;
+}
+.naranja{
+    border: 5px solid red;
+    border-radius:20px;
+    border-style: groove;
+    background-color: rgb(255, 129, 62);
+}
+.gris{
+    background-color: rgb(247, 245, 245);
+    border-left: 10px solid rgb(255, 0, 128 );
+}
+
+#ultimo{
+    background-color:rgb(247, 245, 245);
+    border-top: 5px solid rgb(241, 111, 172);
+    border-bottom:5px solid rgb(241, 111, 172) ;
+}

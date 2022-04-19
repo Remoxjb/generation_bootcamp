@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML AVANZADO</title>
+</head>
+<body>
+    <style>
+        table, tr, td, th{
+            border: 1px solid black;
+        }
+        table{
+            border-collapse: collapse;
+        }
+    </style>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Tablas</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <h2 id="Tablas">Tablas</h2>
+    <table>
+        <!--Encabezado o cabecera-->
+        <thead>
+            <!--Crear una fila-->
+            <tr>
+                <th>Cabecera</th>
+                <th>Cabecera</th>
+                <th>Cabecera</th>
+            </tr>
+        </thead>
+
+        <!--Cuerpo de la tabla-->
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td colspan="2">H</td>
+            </tr>
+            <tr>
+                <td colspan="3">I</td>
+            </tr>
+        </tbody>
+
+        <!--pie de la tabla se ocupara para sumas o totales-->
+        <tfoot>
+            <td>Total</td>
+        </tfoot>
+    </table>
+
+    <hr>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Grabaciones de los Sei pezzi para pianoforte</th>
+            </tr>
+            <tr>
+                <th>Año</th>
+                <th>Pianista</th>
+                <th>Etiqueta</th>
+                <th>Árbitro</th>
+            </tr>
+        </thead> 
+        <tbody>
+            <tr>
+                <td>1997</td>
+                <td>Konstantin Scherbakov</td>
+                <td>Registros de Naxos</td>
+                <td>[69]</td>
+            </tr>
+            <tr>
+                <td>2000</td>
+                <td>Ricardo Sandiford</td>
+                <td>Bongiovanni</td>
+                <td>[70]</td>
+            </tr>
+            <tr>
+                <td>2016</td>
+                <td>michele d'ambrosio</td>
+                <td>Clásicos brillantes</td>
+                <td>[71]</td>
+            </tr>
+        </tbody>   
+    </table>
+
+    <h2>Tabla con celdas extendidas</h2>
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="3">alfa</td>
+                <td>bravo</td>
+                <td rowspan="2">charlie</td>
+            </tr>
+            <tr>
+                <td>delta</td>
+                <td>echo</td>
+                <td>foxtrot</td>
+                <td>golf</td>
+            </tr>
+            <tr>
+                <td>hotel</td>
+                <td colspan="3", rowspan="2">india</td>
+                <td>juliett</td>
+            </tr>
+            <tr>
+                <td>kilo</td>
+                <td>lima</td>
+            </tr>
+            <tr>
+                <td>mike</td>
+                <td>november</td>
+                <td>oscar</td>
+                <td>papa</td>
+                <td>quebec</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
