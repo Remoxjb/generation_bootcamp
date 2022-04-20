@@ -1,0 +1,59 @@
+/*
+px
+fuente
+tamaño del body
+*/
+
+/* tamaños de pantalla de los dispositivos
+1200px - pc
+700px - tablet
+450px - celular
+
+*/
+
+/*
+Unidades de medida relativas
+%
+Rem = al tamaño de px de nuestro navegador 16px (hace referencia al tamaño de fuente de los textos )
+Em= tamaño de fuente que tiene el elemento padre (hace referencia al tamaño de fuente de los textos)
+vh: Viewport width
+vw Viewport width
+*/
+
+*{/*esto se hace para que se aplique al elemento y quede del tamaño que lo quieres hacer, y que la caja se tenia de 100px*100px y con esta modificacion se ajusto para que quede al tamaño que lo necesitas. para resetear los estilos del navegador */
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+margin: 0;
+}
+
+.forma{
+    width: 100px; /*es para que tu pagina se adapte al tipo de pantallas, ya que si pones una unidad px (pixeles o % se adapta un poco mas)lo limitas y no se muestra (se llame responsivo es decir que se adapta) */
+    height: 100px;
+    font-size: 20px; /* tamaño de fuente (letras)*/
+    padding: 5px;
+    margin: auto; /*centra los elementos de bloque que deben de tener alto y ancho (width y height)*/
+    text-align: center;
+}
+
+.color{
+    background-color: blue;
+    border: 5px solid red;
+}
+
+p{
+    padding: 20px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+a{
+    width: 50%; /*esta propiedad y el margin 0 auto para que se centre el elemento a la mitad exacto del elemento*/
+    padding: 10px;
+    border: 3px solid red;/*si no quieres que se vea el borde puedes poner el color transparent*/
+    display: block; /*bloque y en linea cambian el comprtamiento que tienen por defecto los elementos*/
+    margin: 30px auto 30px auto;/*se puede aplicar solo dos elementos 10px auto*/
+    text-align: center;/*para centra el contenido del texto del elemento*/   
+    margin-top: 20px; /*este margen aunque tenga uno antes siempre va aplicar el ultimo margen.*/
+}

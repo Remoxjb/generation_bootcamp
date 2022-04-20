@@ -1,0 +1,31 @@
+
+h1{
+    text-align: center;
+}
+.formulario{
+    border: 5px solid blueviolet;
+    padding: 10px;
+    background-color: rgb(200, 167, 230);
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.colorfondo{
+    background-color: rgb(226, 135, 214);
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.btn-enviar{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+.acomodo{
+    display: inline-block;
+    width: 100px;
+}
+

@@ -1,0 +1,48 @@
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-color:rgb(127, 255, 212);
+}
+table, tr, td, th{
+    border: 1px double black;
+}
+th{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.tabla{
+
+}
+.color-amarillo{
+    background-color: rgb(127, 255, 0) ;
+}
+
+.naranja{
+    background-color:rgb(210, 105 , 30) ;
+}
+
+.negro{
+background-color: black;
+}
+
+.letra-roja{
+    color: red;
+}
+.cursiva{
+    font-style: italic;
+}
+.feliz{
+    color: black;
+}
+strong{
+    color: black;
+}
+.camarillo{
+    color: yellow;
+}
+
+
+

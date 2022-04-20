@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/formularios.css">
+    <title>Formularios</title>
+</head>
+<body>
+    <!--Formularios atributos basicos (<form action="" method="post">) los input son de en linea-->
+    <form>
+        <input type="text" placeholder="Nombre" minlength="6" required>
+        <input type="text" placeholder="Apellido" size="10"> <!--size por defual viene para 20 caracteres-->
+        <input type="text" maxlength="10"> <!-- value el valor se queda estatico minlength minimo de caracteres, maxlength maximo de caracteres -->
+
+        <input type="number" min="0" max="100" step="10"> 
+        <input type="date">
+        <input type="month">
+        <input type="week">
+        <input type="datetime-local">
+        <input type="time">
+        <input type="password">
+        <input type="file">
+        <input type="range" min="1" max="4">
+        <input type="checkbox" value="Hola" checked>
+        <input type="radio" name="n" value="1"> <!--se queda marcado siempre y si son mas solo toma 1-->
+        <input type="radio" name="n" value="2">
+        <input type="email" required>
+        <select name="Menu" size="1">
+            <option ></option>
+        <option>Uno</option>
+            <option value="1">Dos</option>
+            <option value="2">Tres</option>
+        </select>
+        <textarea name="" id="" cols="10" rows="5"></textarea>
+        <input type="color" id="inputcolor" value="#ff0000">
+        <input type="reset" value="Limpiar">
+        <input type="submit" value="Mandar">
+
+    </form>
+
+    <script>
+        const color = document.querySelector("#inputcolor")
+        console.log(color);
+
+        color.addEventListener("change",function(e) {
+            document.body.style.backgroundColor = e.target.value;
+        })
+    </script>
+    <hr>
+    <h1>Formulario</h1>
+    <form class=" formulario">
+        <div class="Nombre">
+            <label class="acomodo" for="Nombre">Nombre</label>
+            <input class="colorfondo" type="text" name="name" id="Nombre" placeholder="Nombre" required>
+        </div>
+        <div class="apellido">
+            <label class="acomodo" for="apellido">Apellido</label>
+            <input class="colorfondo" type="text" id="apellido" placeholder="Apellido">
+        </div>
+        <div class="password">
+        <label class="acomodo" for="password">Contraseña</label>
+        <input class="colorfondo" type="password" id="password" required>
+        </div>
+        <div class="correo">
+            <label class="acomodo" for="correo">Correo</label>
+            <input class="colorfondo" type="email" id="correo" required>
+        </div>
+        <div class="enviar">
+            <input class="btn-enviar" type="submit" value="Enviar">
+        </div>
+    </form>
+
+</body>
+</html>

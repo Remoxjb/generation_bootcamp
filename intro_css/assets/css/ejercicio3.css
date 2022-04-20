@@ -1,0 +1,46 @@
+
+p{
+    font-family: sans-serif;
+}
+h1{
+   text-align: end; 
+   font-family: cursive;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(198, 217, 238);
+}
+p{
+    font-family: cursive;
+}
+
+h2{
+    font-variant: normal small-caps;
+    text-transform:uppercase;
+}
+
+.titulo{
+       color: rgb(255, 0, 0) ; 
+}
+.uno{
+    color: rgb(210, 98, 93);
+    font-weight: bold;
+}
+
+.time{
+    color: rgb(229, 177, 128) ;
+}
+
+.nombres{
+    color: rgb(29,132,54);
+    background-color: white;    
+}
+
+.contenedora{
+    width: 1024px;
+    margin: auto;
+}
+
