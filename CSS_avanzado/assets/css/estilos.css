@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   /* position: relative; */
+}
+.cuadro{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    /* display: inline-block; */
+}
+
+/*
+bottom
+top
+left
+right
+
+*/
+h1{
+    /*position: relative;
+    top: 100px;
+    bottom: -100px; *//* hace lo mismo que top ya que esta en un valor negativo*/
+    /* z-index: -1;  tiene posicion estatica y se pone detras de div 1 debido a que cambiaste la posicion estatica a -1*/
+}
+
+.div1{
+    background-color: blue;
+    position: static;
+    bottom: 100px;
+}
+.div2{
+    background-color: cadetblue;
+   position: sticky;/* se mueve dentro del elemento padre y de igual manera necesita un top para que se puede mover */
+    /* position: fixed; */ /* se mueve fuera del elemento padre y top sirve para donde detenerse o donde se va a mover */
+    top: 100px;
+    left: 200px;
+   /* position: absolute;*/ /* al tener la posicion absoluta se posiciona en el padre mas grande inicialmente es el body. (para este ejemplo se creo otro div y se debe de poner posicion relativa para que se posicione dentro de elemento */
+    
+   /* bottom: 50%;
+    left: 100px;
+    z-index: 11;*/ /* se sobrepone sobre h1 debido a la pocicion que estaban originalmente ya que son otra capa diferente*/
+}
+.div3{
+    background-color: cornflowerblue;
+}
+
+.padre{
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
