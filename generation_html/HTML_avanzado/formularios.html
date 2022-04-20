@@ -40,37 +40,33 @@
 
     </form>
 
-    <script>
-        const color = document.querySelector("#inputcolor")
-        console.log(color);
-
-        color.addEventListener("change",function(e) {
-            document.body.style.backgroundColor = e.target.value;
-        })
-    </script>
     <hr>
     <h1>Formulario</h1>
-    <form class=" formulario">
+    <form class=" formulario" id="formularioDatos">
         <div class="Nombre">
             <label class="acomodo" for="Nombre">Nombre</label>
-            <input class="colorfondo" type="text" name="name" id="Nombre" placeholder="Nombre" required>
+            <input class="colorfondo" type="text" name="Nombre" id="Nombre" placeholder="Nombre" required>
         </div>
         <div class="apellido">
             <label class="acomodo" for="apellido">Apellido</label>
-            <input class="colorfondo" type="text" id="apellido" placeholder="Apellido">
+            <input class="colorfondo" type="text" name="Apellido" id="apellido" placeholder="Apellido">
         </div>
         <div class="password">
         <label class="acomodo" for="password">Contraseña</label>
-        <input class="colorfondo" type="password" id="password" required>
+        <input class="colorfondo" type="password" name="password" id="password" required>
         </div>
         <div class="correo">
             <label class="acomodo" for="correo">Correo</label>
-            <input class="colorfondo" type="email" id="correo" required>
+            <input class="colorfondo" type="email" name="Correo" id="correo" required>
         </div>
         <div class="enviar">
             <input class="btn-enviar" type="submit" value="Enviar">
         </div>
     </form>
+
+    <!--script-->
+
+    <script src="assets/js/main.js"></script>
 
 </body>
 </html>
