@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;400;700&family=Montserrat+Subrayada&family=Square+Peg&display=swap');
+
+
+body{
+    background-color: rgb(236, 213, 185) ;
+}
+h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+}    
+
+p{
+    font-family: 'Square Peg', cursive;
+    font-weight: 700; /* Sirve para modificar el tamaño y grosor de la letra o del font*/
+    font-size: x-large;
+}

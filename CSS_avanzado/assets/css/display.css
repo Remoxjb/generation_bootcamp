@@ -1,0 +1,44 @@
+.padre{
+    width: 80%; /* van de la mano ancho  alto de la pagina % muesta lo que va a ocupar de la pantalla*/
+    height: 60vh;/* view hait es unidades de medida que tiene la pantalla desde que inicia el documento hasta que termina es para hacer responsivos los documentos toma lo que resta de la pantalla respetando los lugares */
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex; /* se activan algunas propiedades que tengan el elemento padre que se comporten de alguna manera */
+   /*  flex-direction: row; /* row: los acomoda de la izquina superior izquierda hacia la derecha
+    row-reverse: los acomoda de la esquina superiror derecha  hacia la izquierda. 
+    colum: nos acomoda havia abajo
+    colum-reverse: los acomoda de la parte inferior izquierda hacia arriba*/
+    justify-content:space-around; /*los va a mover al centro
+    -space-between los mueve y los acomoda dentro del display y se acomondan dentro los separa
+    -space-around los acomoda espaciado y deja una sepracion dentro del elemento padre */
+    align-items: center; /* para acomodar al centro de del padre*/
+    flex-wrap: wrap; /* se adapta al tamaño de la pantalla, cuando lmueves la pantalla se van modificando  y se mueven dentro de la pantalla*/
+}
+/*
+si los elementos tiene aplicada la propiedad row (fila)
+justify-content los acomoda horizontalmente de izquierda a derecha
+align-items verticalmente (arriba abajo)
+
+(culumn= columna)
+justify-content los acomoda horizontalmente los acomoda de arriba a abajo
+align-items verticalmente (los acomoda de izquierda a derecha)
+
+*/
+
+.hijo{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    
+}
+
+.div1{
+    background-color: blue;
+}
+.div2{
+    background-color: blueviolet;
+}
+.div3{
+    background-color: brown;
+}
+
