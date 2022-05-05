@@ -1,5 +1,5 @@
 
-let busquedaInf = window.location.href.split("=").pop()
+const busquedaInf = window.location.href.split("=").pop()
 console.log(busquedaInf);
 
 const busquedaAnimes = document.getElementById("busquedaAnimes")
